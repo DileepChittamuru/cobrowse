@@ -10,8 +10,7 @@
 	
 
   // Port where we'll run the websocket server
-  var webSocketsServerPort = 1337;
-
+  var webSocketsServerPort = process.env.PORT || 3000;
   // websocket and http servers
   var webSocketServer = require('websocket').server;
   var http = require('http');
