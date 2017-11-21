@@ -10,7 +10,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "websocket": "1.0.24"
   },
   "devDependencies": {
     "bower": "^1.8.0",
